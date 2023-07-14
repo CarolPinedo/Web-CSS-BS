@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <h1>Olá. Por favor, preencha os campos do formulário abaixo:</h1>
+
+    <form action="" method="">
+
+        <fieldset>
+            <legend>Formulário de contacto</legend>
+
+
+            <div>
+                <label for="form-nome">Nome</label>
+                <input type="text" name="form-name" id="form-name" placeholder="Insira o seu nome" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="form-email">Email:</label>
+                <input type="email" name="form-email" id="form-email" value="email@email.com">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="form-genero">Gênero</label>
+                <br>
+                <input type="radio" name="form-genero" id="form-genero-masc">
+                <label for="form-genero-masc">Gato</label>
+                <br>
+                <input type="radio" name="form-genero" id="form-genero-fem">
+                <label for="form-genero-fem">Gata</label>
+            </div>
+            <br>
+
+
+            <div>
+                <label for="form-dn">Data de Nascimento</label>
+                <input type="date" name="form-dn" id="form-dn">
+            </div>
+
+            <br>
+            
+            <br>
+
+
+            <div>
+                <label for="form-curso">Turma:</label>
+                <select name="form-curso" id="form-curso">
+                    <option value="" disabled selected>Escolha uma opção</option>
+                    <option value="form-curso-fedev">Front-end Developer</option>
+                    <option value="form-curso-uiux">Design UI/UX</option>
+                    <option value="form-curso-redes">Gestor de redes</option>
+                    <option value="form-curso-paste">Mestre pasteleiro</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="form-mensagem">Mensagem:</label>
+                <br>
+                <textarea name="form-mensagem" id="form-mensagem" cols="50" rows="4"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Enviar">
+            </div>
+
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
